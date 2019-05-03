@@ -28,6 +28,10 @@
                     anchor="bottom"
                     icon="/icons/conan.png"
                     factoryClass="conan.ui.ConanToolWindowFactory"/>
+        <intentionAction>
+            <className>conan.intention.MissingInclude</className>
+            <category>SDK Intentions</category>
+        </intentionAction>
     </extensions>
 
     <actions>
